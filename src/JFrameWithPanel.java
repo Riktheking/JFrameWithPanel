@@ -25,22 +25,22 @@ public class JFrameWithPanel {
         
        Container contentPane = frame.getContentPane();  
    
-       
-        contentPane.setBackground(Color.CYAN); // ½«JFrameÊµÀı±³¾°ÉèÖÃÎªÀ¶ÂÌÉ«  
+       //THIS IS A TEST TAG
+        contentPane.setBackground(Color.CYAN); // å°†JFrameå®ä¾‹èƒŒæ™¯è®¾ç½®ä¸ºè“ç»¿è‰²  
         
-        JPanel panel = new JPanel(); // ´´½¨Ò»¸öJPanelµÄÊµÀı  
+        JPanel panel = new JPanel(); // åˆ›å»ºä¸€ä¸ªJPanelçš„å®ä¾‹  
         
-        panel.setBackground(Color.yellow); // ½«JPanelµÄÊµÀı±³¾°ÉèÖÃÎª»ÆÉ«  
+        panel.setBackground(Color.yellow); // å°†JPanelçš„å®ä¾‹èƒŒæ™¯è®¾ç½®ä¸ºé»„è‰²  
        
       JButton button = new JButton("Press me");  
        
-      panel.add(button); // ½«JButtonÊµÀıÌí¼Óµ½JPanelÖĞ  
+      panel.add(button); // å°†JButtonå®ä¾‹æ·»åŠ åˆ°JPanelä¸­  
         
    
   
  
     contentPane.add(new apaint());
-    contentPane.add(panel, BorderLayout.EAST); // ½«JPanelÊµÀıÌí¼Óµ½JFrameµÄÄÏ²à  
+    contentPane.add(panel, BorderLayout.EAST); // å°†JPanelå®ä¾‹æ·»åŠ åˆ°JFrameçš„å—ä¾§  
 
         frame.setSize(300, 200);  
         frame.setVisible(true);
